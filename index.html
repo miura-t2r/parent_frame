@@ -5,10 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+.c-modal__iframe {
+  width: calc(100% - 1rem);
+  height: calc(80vh - 1rem);
+  border: 2px solid black;
+}
+  </style>
 </head>
 <body>
   <h1>Hello world</h1>
 
-  <iframe src="https://daihatsu-wcs.webrev.jp/321" frameborder="1"></iframe>
+  <iframe src="https://daihatsu-wcs.webrev.jp/321" frameborder="0" allow="clipboard-write" class="c-modal__iframe"></iframe>
 </body>
 </html>
